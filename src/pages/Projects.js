@@ -14,6 +14,7 @@ const Projects = () => {
                     projects.map((project, index) => {
                         return (
                             <Project 
+                            tabIndex='0'
                             key = {index}
                             title = {project.title}
                             img = {project.img}

@@ -29,6 +29,7 @@ const BtnDarkMode = () => {
     
     return (
         <button 
+        tabIndex='0'
         className={darkMode === "true" ? darkModeStyle : lightModeStyle} 
         onClick={toggleMode}>
 			<img src={Sun} alt="Light mode" className="dark-mode-btn__icon"/>
