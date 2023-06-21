@@ -9,7 +9,7 @@ import { projects } from "../helpers/projectsList";
 const Project = () => {
 
     const {id} = useParams();
-    const {description, img, gitHubLink, pageLink, title} = projects[id];
+    const {description, img, gitHubLink, pageLink, title, skills} = projects[id];
 
     return ( 
         <main className="section">
@@ -18,8 +18,8 @@ const Project = () => {
                     <h1 className="title-1">{title}</h1>
                     <img src={img} alt="" className="project-details__cover"/>
                     <div className="project-details__description">
-                        <p className="skills">Skills: {description}</p>
-                        <p className="apis">Description: {description}</p>
+                        <p className="skills">{skills}</p>
+                        <p className="apis">{description}</p>
                     </div>
                     
                     
