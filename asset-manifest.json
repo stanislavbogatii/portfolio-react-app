@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-app/static/css/main.1fa3f1bd.css",
-    "main.js": "/portfolio-react-app/static/js/main.eb9c524b.js",
+    "main.js": "/portfolio-react-app/static/js/main.5403bd5c.js",
     "static/media/weahter_app.png": "/portfolio-react-app/static/media/weahter_app.ec3cf3a42231db081b8d.png",
     "static/media/marvel_app.png": "/portfolio-react-app/static/media/marvel_app.57a0704148058cab7470.png",
     "static/media/CV - Stanislav  Bogatii.pdf": "/portfolio-react-app/static/media/CV - Stanislav  Bogatii.187be6d123e29001fc29.pdf",
@@ -17,10 +17,10 @@
     "static/media/linkedIn.svg": "/portfolio-react-app/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/portfolio-react-app/index.html",
     "main.1fa3f1bd.css.map": "/portfolio-react-app/static/css/main.1fa3f1bd.css.map",
-    "main.eb9c524b.js.map": "/portfolio-react-app/static/js/main.eb9c524b.js.map"
+    "main.5403bd5c.js.map": "/portfolio-react-app/static/js/main.5403bd5c.js.map"
   },
   "entrypoints": [
     "static/css/main.1fa3f1bd.css",
-    "static/js/main.eb9c524b.js"
+    "static/js/main.5403bd5c.js"
   ]
 }
