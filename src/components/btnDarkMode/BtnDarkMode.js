@@ -7,10 +7,10 @@ import Moon from "../../img/icons/Moon.svg";
 
 const BtnDarkMode = () => {
 
-    const [darkMode, setDarkMode] = useLocalStorage('darkMode', false);
+    const [darkMode, setDarkMode] = useLocalStorage('darkMode', "false");
 
     useEffect(() => {
-        if (darkMode) {
+        if (darkMode !== "false") {
             document.body.classList.add('dark');
         }
         else {
@@ -20,7 +20,7 @@ const BtnDarkMode = () => {
 
 
     const toggleMode = () => {
-        setDarkMode(!darkMode);
+        setDarkMode(darkMode === "true" ? "false" : "true");
     }
 
 
@@ -29,7 +29,7 @@ const BtnDarkMode = () => {
     
     return (
         <button 
-        className={darkMode ? darkModeStyle : lightModeStyle} 
+        className={darkMode === "true" ? darkModeStyle : lightModeStyle} 
         onClick={toggleMode}>
 			<img src={Sun} alt="Light mode" className="dark-mode-btn__icon"/>
 			<img src={Moon} alt="Dark mode" className="dark-mode-btn__icon"/>

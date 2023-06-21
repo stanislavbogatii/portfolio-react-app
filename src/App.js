@@ -1,6 +1,6 @@
 import "./styles/main.css";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -15,20 +15,20 @@ import ScrollToTop from "./utils/scrollToTop";
 function App() {
 	return (
 		<div className="App">
-			<Router>
+			<HashRouter>
 				<ScrollToTop/>
 				<Navbar/>
 
 				<Routes>
-					<Route path="/" element={<Home/>}/>
-					<Route path="/projects" element={<Projects/>}/>
-					<Route path="/project/:id" element={<Project/>}/>
-					<Route path="/contacts" element={<Contacts/>}/>
+					<Route exact  path="/portfolio-react-app/" element={<Home/>}/>
+					<Route exact  path="portfolio-react-app/projects" element={<Projects/>}/>
+					<Route exact  path="portfolio-react-app/project/:id" element={<Project/>}/>
+					<Route exact  path="portfolio-react-app/contacts" element={<Contacts/>}/>
 				</Routes>
 
 				<Footer/>
 
-			</Router>
+			</HashRouter>
     	</div>
   	);
 }

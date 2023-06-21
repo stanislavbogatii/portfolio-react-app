@@ -1,4 +1,5 @@
 import "./header.css";
+import myCV from "../../resources/CV - Stanislav  Bogatii.pdf";
 
 const Header = () => {
     return ( 
@@ -11,7 +12,7 @@ const Header = () => {
 				<div className="header__text">
 					<p>with passion for learning and creating.</p>
 				</div>
-			    <a href="#!" className="btn">Download CV</a>
+			    <a href={myCV} target="_blank" rel="noreferrer" className="btn">Download CV</a>
 			</div>
 		</header>
      );

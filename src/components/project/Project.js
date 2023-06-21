@@ -4,7 +4,7 @@ import "./project.css";
 const Project = ({title, img, index}) => {
     return ( 
         <li className="project">
-                <NavLink to = {`/project/${index}`}>
+                <NavLink to = {`/portfolio-react-app/project/${index}`}>
                     <img src={img} alt="Project img" className="project__img"/>
                     <h3 className="project__title">{title}</h3>
                 </NavLink>

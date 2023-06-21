@@ -14,7 +14,7 @@ function Navbar() {
 			<div className="container">
 				<div className="nav-row">
 					
-					<NavLink to="/" className="logo">
+					<NavLink to="portfolio-react-app/" className="logo">
 						<strong>My</strong> portfolio
 					</NavLink>
 
@@ -23,19 +23,19 @@ function Navbar() {
 					<ul className="nav-list">
 
 						<li className="nav-list__item">
-							<NavLink to="/" className={({isActive}) => isActive ? activeLink : inactiveLink}>
+							<NavLink to="portfolio-react-app/" className={({isActive}) => isActive ? activeLink : inactiveLink}>
 								Home
 							</NavLink>
 						</li>
 
 						<li className="nav-list__item">
-							<NavLink to="/projects" className={({isActive}) => isActive ? activeLink : inactiveLink}>
+							<NavLink to="portfolio-react-app/projects" className={({isActive}) => isActive ? activeLink : inactiveLink}>
 								Projects
 							</NavLink>
 						</li>
 
 						<li className="nav-list__item">
-							<NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : inactiveLink}>
+							<NavLink to="portfolio-react-app/contacts" className={({isActive}) => isActive ? activeLink : inactiveLink}>
 								Contacts
 							</NavLink>
 						</li>
