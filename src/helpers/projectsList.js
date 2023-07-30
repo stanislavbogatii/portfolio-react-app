@@ -1,6 +1,7 @@
 import employeers_list from '../img/projects/employeers_app.png';
 import marvel_app from '../img/projects/marvel_app.png';
 import weather_app from '../img/projects/weahter_app.png';
+import crypto_currency_app from '../img/projects/crypto_currency_app.png';
 
 const projects = [
     {
@@ -26,6 +27,14 @@ const projects = [
         img: employeers_list,
         gitHubLink: "https://github.com/s-user42/my-app",
         pageLink: "https://s-user42.github.io/my-app/"
+    },
+    {
+        title: "Crypto Currency App",
+        skills: "html/css, React.js and JavaScript.",
+        description: "API: Crypto API. Used material-ui library.",
+        img: crypto_currency_app,
+        gitHubLink: "https://github.com/s-user42/react_crypto_app",
+        pageLink: "https://s-user42.github.io/react_crypto_app/"
     }
 ]
 
