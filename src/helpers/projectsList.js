@@ -2,8 +2,17 @@ import employeers_list from '../img/projects/employeers_app.png';
 import marvel_app from '../img/projects/marvel_app.png';
 import weather_app from '../img/projects/weahter_app.png';
 import crypto_currency_app from '../img/projects/crypto_currency_app.png';
+import seo_checker_app from '../img/projects/seo_checker_app.png';
 
 const projects = [
+    {
+        title: "SEO Checker",
+        skills: "React project, under the domain name seo.extensive.digital, reCAPTCHA v3",
+        description: "API: Google PageSpeed Insights",
+        img: seo_checker_app,
+        gitHubLink: "https://github.com/s-user42/seo_tester-react-app",
+        pageLink: "https://seo.extensive.digital"
+    },
     {
         title: "Weather App",
         skills: "html/css, React.js and JavaScript.",
