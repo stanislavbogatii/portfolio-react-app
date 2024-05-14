@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-app/static/css/main.1fa3f1bd.css",
-    "main.js": "/portfolio-react-app/static/js/main.441d14ab.js",
+    "main.js": "/portfolio-react-app/static/js/main.6779db1c.js",
     "static/media/weahter_app.png": "/portfolio-react-app/static/media/weahter_app.ec3cf3a42231db081b8d.png",
     "static/media/marvel_app.png": "/portfolio-react-app/static/media/marvel_app.57a0704148058cab7470.png",
     "static/media/CV - Stanislav  Bogatii.pdf": "/portfolio-react-app/static/media/CV - Stanislav  Bogatii.187be6d123e29001fc29.pdf",
@@ -9,20 +9,20 @@
     "static/media/crypto_currency_app.png": "/portfolio-react-app/static/media/crypto_currency_app.79a8b10b665126ce34fb.png",
     "static/media/employeers_app.png": "/portfolio-react-app/static/media/employeers_app.60d0a0d4533f371e1916.png",
     "static/media/Abstract.png": "/portfolio-react-app/static/media/Abstract.f0fc7e892da25b80de2d.png",
-    "static/media/Sun.svg": "/portfolio-react-app/static/media/Sun.51393a375a81e44f27f1e33d713ca0ae.svg",
-    "static/media/Moon.svg": "/portfolio-react-app/static/media/Moon.a84eb240a8739f0ef02594df4c131706.svg",
-    "static/media/gitHub.svg": "/portfolio-react-app/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
-    "static/media/gitHub-black.svg": "/portfolio-react-app/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
-    "static/media/instagram.svg": "/portfolio-react-app/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
-    "static/media/vk.svg": "/portfolio-react-app/static/media/vk.ffb489eeac4ab842395ffb315910ea7f.svg",
-    "static/media/twitter.svg": "/portfolio-react-app/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
-    "static/media/linkedIn.svg": "/portfolio-react-app/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
+    "static/media/Sun.svg": "/portfolio-react-app/static/media/Sun.8ff7341d2a50c48b0e2093967f83d1e7.svg",
+    "static/media/Moon.svg": "/portfolio-react-app/static/media/Moon.61514529f82a2d1e4a146885428cef82.svg",
+    "static/media/gitHub.svg": "/portfolio-react-app/static/media/gitHub.a5541850a2a6843f34467a91657cc39d.svg",
+    "static/media/gitHub-black.svg": "/portfolio-react-app/static/media/gitHub-black.879a08487a26f06ac21248a96c866696.svg",
+    "static/media/instagram.svg": "/portfolio-react-app/static/media/instagram.6b0ce32a930db2eac1c21600458a8cd0.svg",
+    "static/media/vk.svg": "/portfolio-react-app/static/media/vk.92c39b2c917df4fd4643503dd57a49bf.svg",
+    "static/media/twitter.svg": "/portfolio-react-app/static/media/twitter.9ca7b7d7634476270a563192e3f69250.svg",
+    "static/media/linkedIn.svg": "/portfolio-react-app/static/media/linkedIn.55523f62797ddb51e960322dd47e5636.svg",
     "index.html": "/portfolio-react-app/index.html",
     "main.1fa3f1bd.css.map": "/portfolio-react-app/static/css/main.1fa3f1bd.css.map",
-    "main.441d14ab.js.map": "/portfolio-react-app/static/js/main.441d14ab.js.map"
+    "main.6779db1c.js.map": "/portfolio-react-app/static/js/main.6779db1c.js.map"
   },
   "entrypoints": [
     "static/css/main.1fa3f1bd.css",
-    "static/js/main.441d14ab.js"
+    "static/js/main.6779db1c.js"
   ]
 }
